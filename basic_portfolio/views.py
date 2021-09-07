@@ -2,8 +2,8 @@ from django.shortcuts import render
 # Create your views here.
 from basic_portfolio.forms import NewContact
 
-def index(request):
-    return render(request, 'basic_portfolio/index.html')
+# def index(request):
+#     return render(request, 'basic_portfolio/index.html')
 
 def uniprojects(request):
     return render(request, 'basic_portfolio/university_projects.html')
