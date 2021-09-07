@@ -18,7 +18,8 @@ from django.urls import path, include
 from basic_portfolio import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    # path('', views.index, name='index'),
+    path('', views.uniprojects, name='uniprojects'),
     path('admin/', admin.site.urls),
     path('projects/', include('basic_portfolio.urls')),
 
