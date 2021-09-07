@@ -8,16 +8,16 @@ from basic_portfolio.forms import NewContact
 def uniprojects(request):
     return render(request, 'basic_portfolio/university_projects.html')
 
-def contactform(request):
-    form = NewContact
-
-    if request.method == 'POST':
-        form = NewContact(request.POST)
-
-        if form.is_valid():
-            form.save(commit=True)
-            return index(request)
-        else:
-            print('ERROR')
-
-    return render(request, 'basic_portfolio/contact.html', {'form':form})
+# def contactform(request):
+#     form = NewContact
+#
+#     if request.method == 'POST':
+#         form = NewContact(request.POST)
+#
+#         if form.is_valid():
+#             form.save(commit=True)
+#             return index(request)
+#         else:
+#             print('ERROR')
+#
+#     return render(request, 'basic_portfolio/contact.html', {'form':form})
