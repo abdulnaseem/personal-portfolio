@@ -67,3 +67,9 @@ body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-
   border: 1px solid #9fafca!important;
   border-radius: 8px;
 }
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: lightblue;
+  }
+}
