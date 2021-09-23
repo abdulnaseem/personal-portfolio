@@ -68,11 +68,14 @@ body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-
   border-radius: 8px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
   body {
     background-color: white;
     /* overflow-x: hidden; */
     font-size: 16px!important;
+    width: 100%;
+        margin: 0;
+        padding: 0;
 
   }
   #grad-cert-link{
