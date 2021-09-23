@@ -77,7 +77,7 @@ body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-
     width:350px!important;
   }
   #projects{
-    width:300px!important;
+    width:100px!important;
     margin-left: -35px!important;
   }
   .p-5 .border{
