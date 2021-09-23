@@ -72,4 +72,7 @@ body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-
   body {
     background-color: lightblue;
   }
+  #header{
+    width:20px;
+  }
 }
