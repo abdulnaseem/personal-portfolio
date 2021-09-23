@@ -73,11 +73,7 @@ body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-
     background-color: white;
     overflow-x: hidden;
     font-size: 16px!important;
-    position: relative;
-    top: 0%;
-    bottom: 0%;
-    right: 0%;
-    left: -50%;
+
   }
   #grad-cert-link{
     width:350px!important;
