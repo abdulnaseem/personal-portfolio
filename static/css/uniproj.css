@@ -72,12 +72,13 @@ body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-
   body {
     background-color: white;
     overflow-x: hidden;
+    font-size: 16px;
   }
   #grad-cert-link{
     width:350px!important;
   }
   #projects{
-    width:100px!important;
+    width:50px!important;
     margin-left: -35px!important;
   }
   .p-5 .border{
