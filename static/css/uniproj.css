@@ -73,6 +73,6 @@ body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-
     background-color: lightblue;
   }
   #grad-cert-link{
-    width:20px;
+    width:20px!important;
   }
 }
