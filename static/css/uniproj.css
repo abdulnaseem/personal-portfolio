@@ -84,7 +84,7 @@ body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-
     margin-top:4px!important;
   }
   .p-5 .my-3 .border{
-    border-radius: 5px;
+    border-radius: 5px!important;
   }
 
 }
