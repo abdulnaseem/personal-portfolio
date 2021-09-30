@@ -82,7 +82,7 @@ body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-
   #projects{
     width:100%!important;
     margin-left: -35px!important;
-    margin-right: -35px!important;
+    margin-right: 20px!important;
 
 
   }
