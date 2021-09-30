@@ -29,13 +29,17 @@
   height:40px;
 }
 #projects{
-  margin-top: -50px!important;
+  margin-top: 20px!important;
 }
 h3{
   margin-top: 50px!important;
   font-family: 'Satisfy', cursive;
   font-size: 36px;
   color: #0e387a;
+}
+#individual{
+  border-radius: 20px!important;
+  border-color: #9fafca!important;
 }
 /* body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-child(3) > button:nth-child(1){
   background: #E85D04!important;
@@ -82,9 +86,6 @@ body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-
   #projects{
     width:100%!important;
     margin-top:4px!important;
-  }
-  #individual{
-    border-radius: 5px!important;
   }
 
 }
