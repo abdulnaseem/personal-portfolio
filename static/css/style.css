@@ -85,3 +85,14 @@ footer {
   width:150px;
   height:150px
 }
+@media only screen and (max-width: 950px) {
+  .content.left {
+    text-align: center!important;
+  }
+
+  .content.right {
+    text-align: center;
+    margin-bottom: -30px!important;
+  }
+
+}
