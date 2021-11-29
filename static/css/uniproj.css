@@ -39,8 +39,8 @@ h3{
   color: #0e387a;
 }
 #individual{
-  border-radius: 20px!important;
-  border-color: #9fafca!important;
+  box-shadow: 10px 10px grey;
+  border: 2px solid black;
 }
 /* body > div.container.my-5.d-grid.gap-5.p-5.rounded > div:nth-child(1) > div:nth-child(3) > button:nth-child(1){
   background: #E85D04!important;
