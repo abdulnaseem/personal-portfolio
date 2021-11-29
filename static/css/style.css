@@ -2,28 +2,22 @@ body{
   font-family: 'Heebo', sans-serif;
 }
 
-.text-white{
-  /* color: #9fafca!important; */
-  color: #E85D04!important;
-  text-shadow: 1.5px 1.5px #000000;
-  /* background: rgba(61,90,128,0.5); */
-  background: rgba(14,56,122,0.5);
-
-}
-.navbar-brand{
-  /* color: #FFFFFF!important; */
-  /* color: #9fafca!important; */
+/* .navbar-brand{
+  color: #FFFFFF!important;
+  color: #9fafca!important;
   color: #E85D04!important;
   text-shadow: 1px 1px #000000;
-  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Permanent Marker', cursive;
   font-family: 'Satisfy', cursive;
-  font-size: 28px;
-}
+  font-size: 35px;
+} */
 .text-nav{
-  color: #E85D04!important;
+  /* color: #E85D04!important; */
+  color: #FFFFFF!important;
   /* color: #9fafca!important; */
   text-shadow: 1px 1px #000000;
   font-family: 'Heebo', sans-serif;
+  font-size: 20px!important;
 }
 .text-nav:hover{
   color: #DC2F02!important;
@@ -35,7 +29,6 @@ body{
 }
 
 .familiarwith_fullwidth{
-  background: #0e387a;
   width:100%;
 }
 .fw{
@@ -43,35 +36,52 @@ body{
   text-shadow: 1.2px 1.2px #000000;
 
 }
-.mystack{
-  color: #0e387a;
-  text-shadow: 1px 1px #000000;
-}
-#footer{
-  background: #0e387a;
+
+/* #footer{
+  /* background: #0e387a;
+  background: rgba(64,64,64, 1);
   bottom:0;
   height:auto;
   margin-top:40px;
   width:100%;
-  text-align:center;
+  /* text-align:center;
   color: #E85D04;
   padding: 10px 0;
+}
+#left{
+  text-align: left!important;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+#right{
+  text-align: right!important;
+  margin-bottom: 30px;
+}
+p{
+  display: inline;
+  padding: 20px;
+} */
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height:auto;
+  padding: 30px 0;
+  background: rgba(64,64,64, 1);
+}
+
+.content.left {
+  margin-left: 200px;
+  color: white;
+}
+
+.content.right {
+  float: right;
+  margin-right: 200px;
 }
 
 #img-first-col{
   width:150px;
   height:150px
-}
-
-@media only screen and (max-width: 950px) {
-  #header-text1{
-    margin-top:-190px!important;
-    margin-left: 10px!important;
-    margin-right: 10px!important;
-  }
-  #header-text2{
-    margin-left: 10px!important;
-    margin-right: 10px!important;
-  }
-
 }

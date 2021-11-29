@@ -1,6 +1,8 @@
 .navbar{
   /* background: #3D5A80!important; */
-  background: none!important;
+  /* background: none!important; */
+  background: rgba(64,64,64,0.6);
+
 
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
@@ -12,9 +14,56 @@
     background: #0e387a!important;
     opacity: 0.96;
 } */
-.navbar.bg-dark {
+/* .navbar.bg-dark {
     background: #0e387a!important;
-    opacity: 0.96;
+    background: #A9A9A9!important;
+    opacity: 0.5;
+    background: rgba(64,64,64,0.5);
+
+} */
+
+/* .text-white{
+  color: #9fafca!important;
+  color: #E85D04!important;
+  text-shadow: 1.5px 1.5px #000000;
+  background: rgba(61,90,128,0.5);
+  background: rgba(14,56,122,0.5);
+
+} */
+
+#header-text1{
+  text-align:left;
+  font-size: 76px;
+  margin-bottom: 50px;
+}
+#header-text2{
+  font-size: 26px;
+  margin-top:300px;
+  text-align: left;
+}
+#learn-more{
+  font-size: 26px;
+}
+#button{
+  background: #E85D04!important;
+  margin-top:30px;
+  border-style: none;
+}
+#button:hover{
+  background: #DC2F02!important;
+  border-style: none;
+}
+
+.mystack{
+  color: rgba(64,64,64,1);
+  font-size: 50px;
+}
+
+#mystack_collage{
+  width:100%!important;
+  box-shadow: 10px 10px grey;
+  border: 0.5px solid black;
+
 }
 
 #aboutme_img{
@@ -29,4 +78,24 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 950px) {
+  #header-text1{
+    margin-top:-250px!important;
+    margin-left: 20px!important;
+    margin-right: 10px!important;
+    font-size: 50px;
+
+  }
+  #header-text2{
+    margin-top:100px!important;
+    margin-left: 10px!important;
+    margin-right: 10px!important;
+    font-size: 20px;
+  }
+  #button{
+    margin-left: -30px!important;
+  }
+
 }

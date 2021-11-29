@@ -6,8 +6,23 @@
 
 <style>
   .banner-image {
-    background-image: url('static/images/brunel6.jpg');
+    background-image: url('static/images/pexels2.jpg');
     background-size: cover;
+  }
+  /* .hide {
+      opacity:0;
+
+  } */
+  /* @keyframes wipe-enter {
+  	0% {
+  		transform: scale(0, .025);
+  	}
+  	50% {
+  		transform: scale(1, .025);
+  	}
+  } */
+  .show {
+
   }
   @media (max-width: 576px) {
     .banner-image {
@@ -22,19 +37,42 @@
 </style>
 
 <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+  <h1 class="text-white" id="header-text1">Hello, <br>I am Naseem.</h1>
   <div class="content text-center">
-    <h1 class="text-white" id="header-text1">Hello, I am Naseem.</h1>
-    <h1 class="text-white" id="header-text2">A technology enthusiast who loves to learn and adapt.</h1>
-
+    <h1 class="text-white" id="header-text2">
+      Computer Science (Network Computing) Graduate <br>
+      Achieved 2.1 with Honours <br>
+      A technology enthusiast who loves to learn and adapt.
+    </h1>
+    <button id="button" class="btn btn-primary btn-md" type="button">Learn more</button>
   </div>
 </div>
 
-<div class="container">
+<div id="myStack" class="container hide">
   <!-- <div class="container d-grid gap-5"> -->
 
-  <div class="p-5">
-    <h1 class="mystack mb-4" align="center">My Stack</h1><br>
+  <div class="container p-5">
     <div class="row">
+      <div class="col-lg-4 align-self-center col-md-6 col-xs-6 boxy pb-5">
+        <h1 class="mystack" align="left">Core tools and technologies</h1><br>
+      </div>
+      <div class="col-lg-4 align-self-center col-md-6 col-xs-6 boxy pb-5">
+        During my university studies, I have had extensive exposure to Java programming language including completing weekly programming challenges set on a deadline basis, these were based on algorithms and data structures.
+        <br><br>
+        Each year I have been involved in a core project where the first two years of my studies has involved group projects; building skills on teamwork and collaboration via Git version control and GitHub.
+        <br><br>
+        The collage represents all the core skillsets I have built over the course of three years, including the software development lifecycle and agile methodologies.
+      </div>
+      <div class="col-lg-4 col-md-6 col-xs-6 boxy pb-5">
+        <img id="mystack_collage" src="{% static 'images/mystack_collage.jpg' %}" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="p-5">
+    <h1 class="mystack mb-4" align="left">Core tools and technologies</h1><br>
+    <div class="row">
+
       <div class="col-lg-3 col-md-6 col-xs-6 boxy pb-5" align="center"> <img src="static/images/pl-icon200x200_java.png" alt="" id="img-first-col"> </div>
       <div class="col-lg-3 col-md-6 col-xs-6 boxy pb-5" align="center"><img src="static/images/pl-icon200x200_xml.png" alt="" id="img-first-col"></div>
       <div class="col-lg-3 col-md-6 col-xs-6 boxy pb-5" align="center"><img src="static/images/pl-icon200x200_html.png" alt="" id="img-first-col"></div>
@@ -43,54 +81,45 @@
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 boxy" align="center"><img src="static/images/pl-icon200x200_sqlite.png" alt=""></div>
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 boxy" align="center"><img src="static/images/pl-icon200x200_git.png" alt=""></div>
     </div>
-  </div>
+  </div> -->
 </div>
 
-<div class="familiarwith_fullwidth">
-  <div class="container">
-    <!-- <div class="container d-grid gap-5"> -->
+  <div class="container p-5 top-level">
+    <div class="row inner-level">
+      <div id="mobile-top" class="col-lg-4 align-self-center col-md-6 col-xs-6 boxy pb-5 mobile-top">
+        <h1 class="mystack" align="left">Familiarity of tools and technologies</h1><br>
+      </div>
+      <div class="col-lg-4 align-self-center col-md-6 col-xs-6 boxy pb-5 mobile-middle">
+        Upon completing my studies, I have grown a hunger to learn various technologies and how they interconnect. This is why I have taken a course on Python and Django Full Stack Web Development Bootcamp. To be exposed to Python and JavaScript and having the understanding of the core fundamentals.
+        <br><br>
+        I have yet to build projects on these and will do so in the coming months. This course has given me the basic understanding on how to start Django applications and working on the backend using Python and utilising Python Shell Scripting.
+        <br><br>
+        Now, React is another technology that deeply interests me as it caters for web and cross-platform mobile applications. In the coming months, I will be uploading some interesting projects.
 
-    <div class="p-5">
-      <h1 class="fw mb-4" align="center">Familiar With</h1><br>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-xs-6 boxy pb-5" align="center"> <img src="static/images/pl-icon200x200_bootstrap.png" alt="" id="img-first-col"> </div>
-        <div class="col-lg-4 col-md-6 col-xs-6 boxy pb-5" align="center"><img src="static/images/pl-icon200x200_js.png" alt="" id="img-first-col"></div>
-        <div class="col-lg-4 col-md-6 col-xs-6 boxy pb-5" align="center"><img src="static/images/pl-icon200x200_jquery.png" alt="" id="img-first-col"></div>
-        <div class="col-lg-6 col-md-6 col-xs-6 boxy" align="center"><img src="static/images/pl-icon200x200_python.png" alt=""></div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 boxy" align="center"><img src="static/images/pl-icon200x200_django.png" alt=""></div>
+      </div>
+      <div id="mobile-bottom" class="col-lg-4 align-self-center col-md-6 col-xs-6 boxy pb-5 mobile-bottom">
+        <img id="mystack_collage" src="{% static 'images/famwith_collage.jpg' %}" alt="">
       </div>
     </div>
   </div>
-</div>
 
 
-<div class="container my-5">
+<div class="container">
   <!-- <div class="container my-5 d-grid gap-5"> -->
       <div class="p-5">
         <h1 align="center">About Me</h1>
-        <p align="center">
-          "I am a recent graduate from Brunel University London in Computer Science (Network Computing), I have achieved a 2:1
-          overall with a first on my dissertation. During my university years of study, I have built a number of different projects
-          you can view <a href="{% url 'basic_portfolio:uniprojects' %}">here</a>. I am also aspiring to gain further experience in
-          Android development and Java through producing small projects and begin to follow DevOps concepts. I am aiming to build an
-          array of skills in Software Development which includes Mobile Development, Web Development, DevOps and Cloud to successfully
-          build projects and affectively test and deploy. These are the types of fields I would like to get into and if you have any questions,
-          you can contact me via <a href="https://www.linkedin.com/in/abdul-naseem-khan-14b429198/">LinkedIn</a>."
+        <p class="mt-5" align="center">
+          "I have studied Computer Science (Network Computing) in Brunel University London and graduated in July 2021, having achieved 2.1 with Honours.
+          I am somewhat outgoing and a person who enjoys staying home with family. I enjoy being active, giving myself something to do from time to time
+          for example, I love calisthenics, boxing and more recently Brazilian Jiu-Jitsu. I also deeply appreciate learning, where I will sit down and think
+          about what projects I can build and what I can learn from them, what I will be exposed to. This is more to build my portfolio and understanding.
+          I am actively searching for Jobs, I would love to get into either Software Development/Engineering, DevOps or Testing/QA. This website is powered by Django,
+          I will be adding new features and functionalities in time and hope to utilise Python and JavaScript (jQuery) a lot more."
         </p>
         <img id="aboutme_img" src="{% static 'images/aboutme.jpg'%}" alt="">
       </div>
 </div>
 
-    <script type="text/javascript">
-      var nav = document.querySelector('nav');
-
-      window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 100) {
-          nav.classList.add('bg-dark', 'shadow');
-        } else {
-          nav.classList.remove('bg-dark', 'shadow');
-        }
-      });
-    </script>
+<script src="{% static 'js/index.js' %}"></script>
 
 {% endblock %}
