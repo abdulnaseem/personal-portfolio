@@ -99,6 +99,10 @@
   }
   .mystack{
     font-size: 30px;
+    margin-bottom: -40px;
+  }
+  .aboutme{
+    font-size: 30px;
   }
 
 }
