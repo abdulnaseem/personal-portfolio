@@ -8,6 +8,9 @@ def index(request):
 def uniprojects(request):
     return render(request, 'basic_portfolio/university_projects.html')
 
+def aboutme(request):
+    return render(request, 'basic_portfolio/aboutme.html')
+
 def contactform(request):
     form = NewContact
 

@@ -1,0 +1,77 @@
+{% extends "basic_portfolio/base.html" %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/aboutme.css' %}">
+
+<div class="header">
+  <div class="p-5 mt-5">
+    <h1 class="aboutme" align="center">About Me</h1>
+    <p class="short-intro mt-5 ps-5 pe-5" align="start">
+      I’m a Computer Science (Network Computing) graduate from Brunel University London, having achieved 2.1 with Honours.
+      I enjoy taking on challenges as it enables me to think differently and take me out of my comfort zone. I simply love
+      learning and building new experiences.<br>
+    </p>
+  </div>
+</div>
+
+
+<div class="container">
+  <div id="more-aboutme" class="p-5">
+    <h5>Long-term Goal</h5>
+    I am aiming to become a Full Stack Developer, to be able to create cross-platform web and mobile applications. Having
+    said that, this includes Software Developer/Engineering (Front-end and/or Back-end), DevOps and Testing/QA. To learn all
+    of these technologies is a long-term goal.<br><br>
+    <h5>For now</h5>
+    For now, I would love to dive into anyone of these roles and have a core focus!<br><br>
+    <h5>Passion</h5>
+    I have begun to read documentation on JavaScript, React and soon more about jQuery, I am learning the fundamentals of these
+    and in the process of building a project based on React-Native framework. The first project will be a mobile and TV application.
+    I also have the desire to learn Python, from June 2021 to August 2021 I have taken a course known as Python and Django Full Stack
+    Web Developer Bootcamp. This opened me up to Python, Django, JavaScript. jQuery, HTML, CSS and Bootstrap, understanding the
+    syntax and object oriented programming. This website is powered by Django, I will set up the contact form using Python.<br><br><br>
+    <img id="aboutme_img" src="{% static 'images/aboutme.jpg'%}" alt="">
+  </div>
+</div>
+
+
+<div id="myStack" class="container hide">
+  <!-- <div class="container d-grid gap-5"> -->
+
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-lg-4 align-self-center col-md-6 col-xs-6 boxy pb-5">
+        <h1 class="mystack" align="left">Core tools and technologies</h1><br>
+      </div>
+      <div class="col-lg-4 align-self-center col-md-6 col-xs-6 boxy pb-5">
+        During my university studies, I have had extensive exposure to Java programming language including completing weekly programming challenges set on a deadline basis, these were based on algorithms and data structures.
+        <br><br>
+        Each year I have been involved in a core project where the first two years of my studies has involved group projects; building skills on teamwork and collaboration via Git version control and GitHub.
+        <br><br>
+        The collage represents all the core skillsets I have built over the course of three years, including the software development lifecycle and agile methodologies.
+      </div>
+      <div class="col-lg-4 col-md-6 col-xs-6 boxy pb-5">
+        <img id="mystack_collage" src="{% static 'images/mystack_collage.jpg' %}" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container p-5 top-level">
+  <div class="row inner-level">
+    <div id="mobile-top" class="col-lg-4 align-self-center col-md-6 col-xs-6 boxy pb-5 mobile-top">
+      <h1 class="mystack" align="left">Familiarity of tools and technologies</h1><br>
+    </div>
+    <div class="col-lg-4 align-self-center col-md-6 col-xs-6 boxy pb-5 mobile-middle">
+      Upon completing my studies, I have grown a hunger to learn various technologies and how they interconnect. This is why I have taken a course on Python and Django Full Stack Web Development Bootcamp. To be exposed to Python and JavaScript and having the understanding of the core fundamentals.
+      <br><br>
+      I have yet to build projects on these and will do so in the coming months. This course has given me the basic understanding on how to start Django applications and working on the backend using Python and utilising Python Shell Scripting.
+      <br><br>
+      Now, React is another technology that deeply interests me as it caters for web and cross-platform mobile applications. In the coming months, I will be uploading some interesting projects.
+
+    </div>
+    <div id="mobile-bottom" class="col-lg-4 align-self-center col-md-6 col-xs-6 boxy pb-5 mobile-bottom">
+      <img id="mystack_collage" src="{% static 'images/famwith_collage.jpg' %}" alt="">
+    </div>
+  </div>
+</div> -->
+{% endblock %}

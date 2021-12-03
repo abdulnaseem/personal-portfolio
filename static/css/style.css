@@ -1,5 +1,18 @@
 body{
-  font-family: 'Heebo', sans-serif;
+  /* font-family: 'Heebo', sans-serif; */
+  font-family: 'Gentium Book Basic', serif;
+}
+.navbar{
+  /* background: #3D5A80!important; */
+  /* background: none!important; */
+  background: rgba(64,64,64,0.6);
+
+
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 /* .navbar-brand{
@@ -91,6 +104,9 @@ footer {
 @media only screen and (max-width: 950px) {
  .navbar-brand img{
    width:200px!important;
+ }
+ #linkedin{
+   margin-left: 30px!important;
  }
 
 }
