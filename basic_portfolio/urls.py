@@ -5,6 +5,5 @@ app_name = 'basic_portfolio'
 
 urlpatterns = [
     path('university_projects/', views.uniprojects, name='uniprojects'),
-    path('about/', views.aboutme, name='aboutme'),
     path('contact/', views.contactform, name='contactform'),
 ]
